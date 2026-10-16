@@ -34,11 +34,13 @@ void liberaNo(struct no* no){
         free(no);
         no = NULL;
     }
-    void liberaArvBin(arvBin* raiz){
-        if(raiz == NULL)
-            return;
-        liberaNo(*raiz);
-        free(raiz);
+}
+
+void liberaArvBin(arvBin* raiz){
+    if(raiz == NULL)
+        return;
+    liberaNo(*raiz);
+    free(raiz);
     //A representação de árvore binária, bem como as implementações das funções utilizadas
     //aqui, são exemplos de como podemos implementar uma árvore binária computacionalmente, não sendo essa a única forma existente.
 }
