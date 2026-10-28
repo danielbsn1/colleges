@@ -1,15 +1,15 @@
 package Java;
 
-class Carro {
+public class imprimir {
     String codVeiculo;
     String nome;
     int ano;
 
-    void imprimir() {
+    public void imprimir() {
         System.out.print("Nome: " + nome);
     }
 
-    void vender() {
+    public void vender() {
         System.out.print("Veículo vendido");
     }
 }
